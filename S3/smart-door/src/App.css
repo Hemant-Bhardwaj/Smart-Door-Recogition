@@ -1,0 +1,137 @@
+.App {
+  text-align: center;
+  background-color: #343d54;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Camera-logo {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  left: 53px;
+  top: 241px;
+}
+
+.S-logo {
+  position: absolute;
+  height: 86px;
+  width: 48px;
+  left: 1120px;
+  top: 155px;
+}
+
+.Left-img {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 901px;
+  width: 893px;
+}
+
+.text-label {
+  position: absolute;
+  font-family:Helvetica;
+  font-size:23px;
+  color:#ffffff;
+  letter-spacing:0;
+  text-align:left;
+  left:989px;
+  top:294px;
+}
+
+.name-label {
+  position: absolute;
+  font-family:Helvetica;
+  font-size:17px;
+  color:#ffffff;
+  letter-spacing:0;
+  text-align:left;
+  left:1012px;
+  top:360px;
+}
+
+.phone-label {
+  position: absolute;
+  font-family:Helvetica;
+  font-size:17px;
+  color:#ffffff;
+  letter-spacing:0;
+  text-align:left;
+  left:1012px;
+  top:426px;
+}
+
+.name-input {
+  color:#1f8efa;
+  background-color: #272d3f;
+  letter-spacing:0;
+  text-align:left;
+  position: absolute;
+  left:1012px;
+  top:386px;
+}
+
+.phone-input {
+  color:#1f8efa;
+  background-color: #272d3f;
+  letter-spacing:0;
+  text-align:left;
+  position: absolute;
+  left:1012px;
+  top:450px;
+}
+
+.access-button {
+  position: absolute;
+  background-color: #52cd81;
+  left:1012px;
+  top:532px;
+}
+
+.deny-button {
+  position: absolute;
+  background-color: #de2d33;
+  left:1012px;
+  top:582px;
+}
+
+input {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: auto;
+    max-width: 280px;
+    border-radius: 2px;
+    border: 0;
+    overflow: hidden;
+    width: 100%;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 8px 8px 8px 8px;
+    height: 12px;
+    font-size: 16px;
+    font-weight: 400;
+    box-shadow: inset 0 -1px 0  #272d3f;
+    transition: all .15s ease;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+  color:#1f8efa;
+  opacity: 0.3 !important;
+}
+
+button {
+  height: 30px;
+  max-width: 296px;
+  margin: auto;
+  width: 100%;
+  color: white;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  border-radius: 2px;
+  border: 0;
+  padding: 8px 8px 8px 8px;
+  box-shadow: inset 0 -1px 0  #272d3f;
+    transition: all .15s ease;
+}
